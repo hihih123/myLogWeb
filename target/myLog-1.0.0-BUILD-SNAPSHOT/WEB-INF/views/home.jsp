@@ -12,7 +12,7 @@
 		
 		var repeatFunc = function(){
 			
-			$.getJSON("http://localhost:3000/computer/id",
+			$.getJSON("http://130.211.254.77:3000/computer/id",
 				function(obj) {
 					if(obj.length == 0){
 						console.log("@@No data");

@@ -46,7 +46,7 @@
 	    
 	    var repeatFunc = function(){
 	    	
-	    	$.getJSON("http://localhost:3000/resource/com-id/0090F5E956B0/count/" + lastCount,
+	    	$.getJSON("http://130.211.254.77:3000/resource/com-id/0090F5E956B0/count/" + lastCount,
 					  function(obj) {
 	  					if(obj.length == 0){
 	  						console.log('@@No data');
